@@ -1,0 +1,18 @@
+:root{
+    --Main-color: #0F1011;
+    --Primary-color: #FFFFFF;
+    --Secondary-color: #161718;
+    --Para-color: #a2a2a2;
+}
+.admin{
+    width: 100%;
+    background-color: var(--Main-color);
+    display: flex;
+}
+@media (max-width: 768px) {
+    .admin{
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+    
+}

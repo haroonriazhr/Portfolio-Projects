@@ -1,0 +1,139 @@
+.footer{
+    background-color: #e8e8e8;
+    padding-top: 45px;
+    padding: 25px 70px;
+    width: 100vw;
+}
+.footer .f-con{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    gap: 16px;
+}
+.f-con .sec-1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 16px 1px;
+}
+.sec-1 .sec-info{
+    width: 100%;
+    font-size: 16px;
+    color: #696969;
+    line-height: 38px;
+    margin: 16px 0;
+    font-weight: 500;
+}
+.sec-1 .link>a{
+    color: #cf292a;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.sec-2{
+    width: 40.5%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+}
+.sec-2 .sec-2-data{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sec-2 .sec-2-data h1{
+    font-size: 18px;
+    color: #696969;
+    font-weight: 700;
+    letter-spacing: 3px;
+    white-space: nowrap;
+}
+.sec-2 .sec-2-data ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 15px;
+    color: #cf292a;
+    list-style: none;
+}
+.sec-2 .sec-2-data ul>li{
+    white-space: nowrap;
+}
+.f-con .sec-3{
+    width: 71%;
+    height: 100%;
+}
+.f-con .sec-3 ,sec-3-img{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+}
+.sec-3 .sec-3-iso{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.sec-3 .sec-3-iso img{
+    width: 170px;
+}
+.sec-3 .sec-3-tp{ 
+    height: 0;
+    width: 54%;
+    margin-top: 5%;
+    padding-bottom: 19.6031746031746%;
+    position: relative;
+}
+.sec-3 .tp-stars .star{
+    position: relative;
+    height: 0;
+    width: 88%;
+    padding: 0;
+    padding-bottom: 8.326693227091635%;
+
+}
+.stardiv{
+    margin-top: 5%;
+}
+.sec-3 .sec-3-img #reviews-summary{
+    color: #696969;
+    font-size: 12px;
+}
+
+@media (max-width: 768px) {
+    .footer{
+        
+        padding: 5px 10px;
+    }
+    .footer .f-con{
+        flex-direction: column;
+    }
+    .f-con .sec-1 {
+       
+        gap: 0px;
+    }
+    .sec-1 .sec-info {
+        line-height: 30px;
+    }
+    .sec-1 .image{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .sec-1 .link{
+        margin-top: 5%;
+    }
+    .sec-2 {
+        width: 100%;
+        display: contents;
+}
+.sec-2 .sec-2-data {
+    margin-top: 5%;
+}
+}

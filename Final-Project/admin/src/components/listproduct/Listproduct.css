@@ -1,0 +1,75 @@
+:root{
+    --Main-color: #0F1011;
+    --Primary-color: #FFFFFF;
+    --Secondary-color: #161718;
+    --Para-color: #a2a2a2;
+}
+.listproduct{
+    width: 80%;
+    max-width: 800px;
+    padding: 30px 20px;
+    border-radius: 6px;
+    margin: 0px 30px;
+    background-color: var(--Secondary-color);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.listproduct h1{
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 10px 0; 
+}
+.listproduct .listProduct-headings{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    color: var(--Para-color);
+    font-size: 15px;
+}
+.listallProducts{
+    width: 100%;
+}
+.listallProducts .listProduct-card{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    align-items: center; 
+    margin: 20px 0;
+    padding: 3px 0;
+    border-bottom: 1px solid var(--Primary-color); 
+    text-transform: uppercase; 
+}
+.listallProducts .listProduct-card img{
+    width: 70px;
+
+}
+.listProduct-card i{
+    cursor: pointer;
+    margin: auto;
+}
+@media (max-width: 768px) {
+    .listproduct {
+        width: 100%;
+        border-radius: 6px;
+        padding: 0 20px;
+        margin: 0 auto;
+        background-color: transparent;
+        color: white;
+    }
+    .listproduct .listProduct-headings{
+        grid-template-columns: 1fr;
+        font-size: 14px;
+        gap: 20px;
+    }
+    .listallProducts .listProduct-card{
+        grid-template-columns: 1fr;
+        font-size: 14px;
+        gap: 20px;
+    }
+
+}

@@ -1,0 +1,31 @@
+@font-face {
+  font-family: CerebriSans;
+  src: url(../src/Components/assets/font/CerebriSans-Regular.ttf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: CerebriSans !important;
+}
+*::selection{
+  background-color: #CF292A;
+  color: white;
+}
+html, body{
+  width: 100%;
+  height: fit-content;
+  overflow-x: hidden;
+}
+mark{
+  background-color: transparent;
+    color: #CF292A;
+    display: inline-block;
+}
+a{
+  text-decoration: none;
+}
+button{
+  background-color: transparent;
+}
